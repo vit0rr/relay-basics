@@ -10,8 +10,8 @@ import RelayEnvironment from './RelayEnvironment';
 const { Suspense } = React;
 
 const RepositoryNameQuery = graphql`
-  query AppRepositoryNameQuery {
-    repository(owner: "facebook", name: "relay")  {
+  query getUserName {
+    user(id: "1")  {
       name
     }
   }

@@ -8,9 +8,9 @@
     "@testing-library/user-event": "^13.2.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-relay": "^13.0.2",
+    "react-relay": "^14.0.0",
     "react-scripts": "5.0.0",
-    "relay-runtime": "^13.0.2",
+    "relay-runtime": "^14.0.0",
     "web-vitals": "^2.1.0"
   },
   "scripts": {
@@ -43,7 +43,8 @@
     ]
   },
   "devDependencies": {
-    "babel-plugin-relay": "^13.0.2",
-    "relay-compiler": "^13.0.2"
+    "babel-plugin-relay": "^14.0.0",
+    "graphql": "^16.5.0",
+    "relay-compiler": "^14.0.0"
   }
 }
