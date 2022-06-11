@@ -20,10 +20,6 @@
     "build": "yarn run relay && react-scripts build",
     "relay": "yarn run relay-compiler $@"
   },
-  "relay": {
-    "src": "./src/",
-    "schema": "./schema.graphql"
-  },
   "eslintConfig": {
     "extends": [
       "react-app",
